@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const connectDB = ( async () => {
-        await mongoose.connect('mongodb+srv://kashyapneha1013:neha1013@cluster0.brwowq6.mongodb.net/Book-management-app').then(()=>console.log("DB Connected"));
+        await mongoose.connect('').then(()=>console.log("DB Connected"));
     }
     
 );
